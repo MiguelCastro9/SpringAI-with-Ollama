@@ -24,7 +24,7 @@ const ollama = async (prompt: string) => {
   <div class="container">
     <n-card title="SpringIA with Ollama" class="card">
       <n-input type="textarea" v-model:value="prompt" placeholder="Ask something..." />
-      <n-button class="button-send" strong secondary type="primary" @click="ollama(prompt)" :loading="loadingDataOllama">
+      <n-button class="button-send" strong secondary type="primary" @click="ollama(prompt)" :loading="loadingDataOllama" :disabled="!prompt">
         {{ loadingDataOllama ? "Sending" : "Send" }}
       </n-button>
     </n-card>

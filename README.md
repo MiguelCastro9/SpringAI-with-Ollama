@@ -17,7 +17,7 @@ Ref.: https://hub.docker.com/r/ollama/ollama
 <li> Ollama </li>
 <li> Docker </li>
 <li> Vue.js </li>
-<li> Naive-ui </li>
+<li> Naive-UI </li>
 
 <p></p>
 
@@ -26,6 +26,8 @@ Ref.: https://hub.docker.com/r/ollama/ollama
 Import the project into an IDE of your choice, the IDE used for development was IntelliJ IDE, then simply build the application to download the dependencies that are managed by Maven, 
 and run the application. For communication with the language model to work, you need to install Docker and initialize the container images encoded in the <code>docker-compose.yml</code> file, 
 with the <code>docker-compose up -d</code> command and then the <code>docker exec -it ollama ollama run llama2</code> command to run the language model in the Docker container.
+
+Obs.: To run docker container with this Ollama template you need at least 16GB RAM
 
 <strong>Front-end</strong>
 

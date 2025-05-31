@@ -1,6 +1,6 @@
 ## Overview
 
-Exploring <strong>SpringIA</strong> integrated with the <strong>Ollama</strong> model.
+Exploring <strong>SpringAI</strong> integrated with the <strong>Ollama</strong> model.
 
 The project was developed to provide users with an AI solution that runs locally on their own machines, eliminating the need to rely on external AI services. 
 The AI model utilized in the project is <strong>Ollama</strong>, which operates within a Docker container, the back-end built using Java and the Spring Framework 
